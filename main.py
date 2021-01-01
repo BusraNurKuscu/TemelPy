@@ -1,15 +1,13 @@
-dolarDun=7.65
-dolarBugun=7.75
+krediler = ["hızlı kredi", "ihtiyaç kredisi","eğitim kredisi"]
+print(krediler)
+print(krediler[0])
+print(krediler[1])
+print(krediler[2])
+print(len(krediler))
+krediler[0]="çabuk kredi"
+print(krediler)
 
-if dolarDun>dolarBugun:
-  print("Azalış oku")
-elif dolarDun<dolarBugun:
-  print("Artış oku")
-else:
-  print("Eşittir oku")
-print("bitti")
 
- 
 
 
 
