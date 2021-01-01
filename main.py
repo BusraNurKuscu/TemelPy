@@ -3,10 +3,11 @@ dolarBugun=7.75
 
 if dolarDun>dolarBugun:
   print("Azalış oku")
-if dolarDun<dolarBugun:
+elif dolarDun<dolarBugun:
   print("Artış oku")
-if dolarDun == dolarBugun:
+else:
   print("Eşittir oku")
+print("bitti")
 
  
 
